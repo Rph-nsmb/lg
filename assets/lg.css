@@ -1,7 +1,7 @@
 /* Imports */
 
-@import url('');
-@import url('');
+@import url('https://raw.githubusercontent.com/Rph-nsmb/lg/refs/heads/main/assets/stylesheets/main.css');
+@import url('https://raw.githubusercontent.com/Rph-nsmb/lg/refs/heads/main/assets/stylesheets/navbar.css');
 
 
 /* Fonts */
@@ -9,7 +9,7 @@
 @font-face {
      font-family: Cantarell-R;
      src:
-		url('')
+		url('https://github.com/Rph-nsmb/lg/raw/refs/heads/main/assets/fonts/Cantarell/Cantarell-Regular.ttf')
 		format('truetype');
      font-weight: normal;
      font-style: normal;
@@ -19,7 +19,7 @@
 @font-face {
      font-family: Cantarell-B;
      src:
-		url('')
+		url('https://github.com/Rph-nsmb/lg/raw/refs/heads/main/assets/fonts/Cantarell/Cantarell-Bold.ttf')
 		format('truetype');
      font-weight: normal;
      font-style: normal;
@@ -29,7 +29,7 @@
 @font-face {
      font-family: Cantarell-I;
      src:
-		url('')
+		url('https://github.com/Rph-nsmb/lg/raw/refs/heads/main/assets/fonts/Cantarell/Cantarell-Italic.ttf')
 		format('truetype');
      font-weight: normal;
      font-style: normal;
@@ -39,7 +39,7 @@
 @font-face {
      font-family: Cantarell-BI;
      src:
-		url('')
+		url('https://github.com/Rph-nsmb/lg/raw/refs/heads/main/assets/fonts/Cantarell/Cantarell-BoldItalic.ttf')
 		format('truetype');
      font-weight: normal;
      font-style: normal;
