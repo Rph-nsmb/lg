@@ -1,0 +1,92 @@
+/* Imports */
+
+@import url('');
+@import url('');
+
+
+/* Fonts */
+
+@font-face {
+     font-family: Cantarell-R;
+     src:
+		url('')
+		format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+
+@font-face {
+     font-family: Cantarell-B;
+     src:
+		url('')
+		format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+
+@font-face {
+     font-family: Cantarell-I;
+     src:
+		url('')
+		format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+
+@font-face {
+     font-family: Cantarell-BI;
+     src:
+		url('')
+		format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+
+/* Main styles */
+
+:root {
+  --main-font: Cantarell-R;
+  --main-bold: Cantarell-B;
+  --main-italic: Cantarell-I;
+  --main-bolditalic: Cantarell-BI;
+
+
+
+  --button-border-radius: 12px;
+  --button-border-width: 2px;
+
+
+
+  --yellow: #ffef00;
+  --white: #fff;
+  --black: #000;
+  
+  --red: #930000a2;
+  --dark-red: #750000;
+  --darker-red: #680000a2;
+  --darkest-red: #100000;
+
+  --text-color: var(--white);
+  
+  --button-color: var(--yellow);  
+
+}
+
+
+
+
+body {
+
+  background: linear-gradient(135deg, var(--dark-red), var(--darkest-red)) no-repeat center fixed;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+

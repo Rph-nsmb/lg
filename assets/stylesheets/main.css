@@ -1,0 +1,122 @@
+/* Textes */
+
+.main {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	
+	padding: 0 1rem;
+	
+}
+
+.main h1 {
+
+	font-size: 4rem;
+	color: var(--text-color);
+	font-family: var(--main-bold);
+
+}
+
+.main p {
+
+	font-size: 1.5rem;
+	color: var(--text-color);
+	font-family: var(--main-font);
+
+}
+
+.italic {
+
+	font-family: var(--main-italic);
+
+}
+
+
+
+/* Boutons */
+
+.button {
+
+	margin: 0.5rem 0;
+	width: fit-content;
+	background: transparent;
+	border: var(--button-border-width) solid var(--button-color);
+	border-radius: var(--button-border-radius);
+
+	color: var(--button-color);
+	padding: 0.2rem 0.5rem;
+	font-size: 1.5rem;
+	font-family: var(--main-font);
+	
+	transition: all 0.2s;
+	
+}
+
+.button:hover {
+
+	background: var(--button-color);
+	color: var(--black);
+	cursor: pointer;
+	
+}
+
+
+/* Liens */
+
+.link {
+
+	color: var(--yellow);
+	text-decoration: underline;
+}
+
+.nolink {
+
+	color: unset;
+	text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+	.button {
+		
+		font-size: 1.25rem;
+	}
+
+
+	.main h1 {
+		
+		font-size: 3rem;
+	}
+
+	.main p {
+		
+		font-size: 1.25rem;
+	}
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+	.button {
+		
+		font-size: 1rem;
+	}
+
+	.main h1 {
+		
+		font-size: 2rem;
+	}
+
+	.main p {
+		
+		font-size: 1rem;
+	}
+
+}

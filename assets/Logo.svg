@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="179.64575mm"
+   height="44.44429mm"
+   viewBox="0 0 179.64575 44.44429"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="Logo.svg"
+   inkscape:export-filename="Logo.png"
+   inkscape:export-xdpi="169.66725"
+   inkscape:export-ydpi="169.66725"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.6562714"
+     inkscape:cx="483.91827"
+     inkscape:cy="93.885579"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="6.3613772"
+       y="162.21512"
+       width="795.17218"
+       height="347.75528"
+       id="rect6" />
+    <rect
+       x="69.975151"
+       y="259.75623"
+       width="768.66638"
+       height="416.6702"
+       id="rect3" />
+    <rect
+       x="230.70708"
+       y="336.92371"
+       width="780.06403"
+       height="356.33963"
+       id="rect5" />
+    <rect
+       x="47.528854"
+       y="223.66519"
+       width="977.13733"
+       height="409.58688"
+       id="rect2" />
+    <rect
+       x="60.11002"
+       y="32.151871"
+       width="982.72894"
+       height="296.35638"
+       id="rect1" />
+    <rect
+       x="60.11002"
+       y="32.151871"
+       width="982.72894"
+       height="296.35638"
+       id="rect4" />
+    <rect
+       x="60.11002"
+       y="32.151871"
+       width="852.91217"
+       height="228.90256"
+       id="rect1-6" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-45.961109,-52.337587)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.21063536,0,0,0.21063536,33.52115,45.71608)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:48px;line-height:44.6457px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Light';text-align:center;letter-spacing:4.38px;word-spacing:-0.35px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-6);display:inline;fill:#ffef00;fill-opacity:1;stroke:#555555;stroke-width:64.252;stroke-linecap:round;stroke-linejoin:round"
+       x="145.90804"
+       y="0"><tspan
+         x="337.2974"
+         y="67.579796"
+         id="tspan3"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'Cantarell Bold';stroke:none"
+           id="tspan2">Raphaelle’s</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.9552px;line-height:33.4425px;font-family:'Scary Night';-inkscape-font-specification:'Scary Night';text-align:start;letter-spacing:1.2809px;word-spacing:-0.131087px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffef00;fill-opacity:1;stroke-width:1.41556;stroke-linecap:round;stroke-linejoin:round"
+       x="45.961109"
+       y="95.020081"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="fill:#ffef00;fill-opacity:1;stroke-width:1.41556"
+         x="45.961109"
+         y="95.020081">Werewolf</tspan></text>
+  </g>
+</svg>
