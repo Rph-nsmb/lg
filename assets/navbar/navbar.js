@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/assets/navbar/navbar.html")
+  fetch("/lg/assets/navbar/navbar.html")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Error loading navbar");

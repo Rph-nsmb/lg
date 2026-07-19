@@ -3,7 +3,7 @@ function insertSpecialCard(data) {
             
 				<div id="${data.file}" class="char">
 
-        <div class="charicon"><img src="/assets/personnages/svg/${data.file}.svg"></div>
+        <div class="charicon"><img src="/lg/assets/personnages/svg/${data.file}.svg"></div>
 
         <div class="chartext">
 				<div class="chartitle">${data.name}</div>
@@ -22,7 +22,7 @@ function insertChar(data) {
             
 				<div id="${data.file}" class="char camp-${data.camp} apparence-${data.apparence}">
 
-        <div class="charicon"><img src="/assets/personnages/svg/${data.file}.svg"></div>
+        <div class="charicon"><img src="/lg/assets/personnages/svg/${data.file}.svg"></div>
 
         <div class="chartext">
 				<div class="chartitle">${data.name}</div>
@@ -84,7 +84,7 @@ function updateChars(charlist) {
 document.addEventListener("DOMContentLoaded", () => {
   //JSON fetch
 
-  fetch("/assets/personnages/personnages.json")
+  fetch("/lg/assets/personnages/personnages.json")
     .then((res) => res.json())
     .then((personnages) => {
       personnages.forEach((personnage) => {
@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Could not load characters.";
     });
 
-  fetch("/assets/personnages/special.json")
+  fetch("/lg/assets/personnages/special.json")
     .then((res) => res.json())
     .then((personnages) => {
       personnages.forEach((special) => {
