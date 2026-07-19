@@ -1,122 +1,134 @@
 /* Textes */
 
 .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  text-align: center;
 
-	text-align: center;
-	
-	padding: 0 1rem;
-	
+  padding: 3rem 1rem;
 }
 
 .main h1 {
-
-	font-size: 4rem;
-	color: var(--text-color);
-	font-family: var(--main-bold);
-
+  font-size: 4rem;
+  color: var(--text-color);
+  font-family: var(--main-bold);
+  margin: 0;
 }
 
-.main p {
+.main h2 {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-family: var(--main-font);
+  margin: 1.5rem 0 0.5rem;
+}
 
-	font-size: 1.5rem;
-	color: var(--text-color);
-	font-family: var(--main-font);
-
+.main p,
+.main ul {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  font-family: var(--main-font);
 }
 
 .italic {
-
-	font-family: var(--main-italic);
-
+  font-family: var(--main-italic);
 }
 
-
+.bi {
+  font-family: var(--main-italic);
+  font-weight: bold;
+}
 
 /* Boutons */
 
 .button {
+  margin: 0.6rem 0;
+  width: fit-content;
+  background: transparent;
+  border: var(--button-border-width) solid var(--button-color);
+  border-radius: var(--button-border-radius);
 
-	margin: 0.5rem 0;
-	width: fit-content;
-	background: transparent;
-	border: var(--button-border-width) solid var(--button-color);
-	border-radius: var(--button-border-radius);
+  color: var(--button-color);
+  padding: 0.2rem 0.5rem;
+  font-size: 1.5rem;
+  font-family: var(--main-font);
 
-	color: var(--button-color);
-	padding: 0.2rem 0.5rem;
-	font-size: 1.5rem;
-	font-family: var(--main-font);
-	
-	transition: all 0.2s;
-	
+  transition: all ease-in-out 0.25s;
 }
 
 .button:hover {
-
-	background: var(--button-color);
-	color: var(--black);
-	cursor: pointer;
-	
+  box-shadow: 0px 0px 30px 8px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
 }
 
+.button:hover:not([aria-pressed="false"]) {
+  background: var(--button-color);
+  color: var(--white);
+}
+
+.button[aria-pressed="true"] {
+  background: var(--button-color);
+  color: var(--white);
+}
 
 /* Liens */
 
-.link {
+a {
+  color: var(--red);
+  text-decoration: underline;
+  transition: all 0.25s;
+}
 
-	color: var(--yellow);
-	text-decoration: underline;
+a:hover {
+  color: var(--light-red);
+}
+
+.button:hover a,
+.button:hover a:hover {
+  color: var(--white);
 }
 
 .nolink {
-
-	color: unset;
-	text-decoration: none;
+  color: unset;
+  text-decoration: none;
 }
-
-
 
 @media only screen and (max-width: 800px) {
+  .button {
+    font-size: 1.25rem;
+    margin: 0.4rem 0;
+  }
 
-	.button {
-		
-		font-size: 1.25rem;
-	}
+  .main h1 {
+    font-size: 3rem;
+  }
 
+  .main h2 {
+    font-size: 1.9rem;
+  }
 
-	.main h1 {
-		
-		font-size: 3rem;
-	}
-
-	.main p {
-		
-		font-size: 1.25rem;
-	}
-
+  .main p {
+    font-size: 1.25rem;
+  }
 }
 
-
 @media only screen and (max-width: 400px) {
+  .button {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+  }
 
-	.button {
-		
-		font-size: 1rem;
-	}
+  .main h1 {
+    font-size: 2rem;
+  }
 
-	.main h1 {
-		
-		font-size: 2rem;
-	}
+  .main h2 {
+    font-size: 1.5rem;
+  }
 
-	.main p {
-		
-		font-size: 1rem;
-	}
-
+  .main p {
+    font-size: 1rem;
+  }
 }

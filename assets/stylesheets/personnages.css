@@ -1,0 +1,193 @@
+/* List of characters */
+
+.charlist {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 2rem;
+  gap: 2rem;
+  transition: all ease-in-out 0.2s;
+}
+
+.char {
+  transition: all ease-in-out 0.2s;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.charicon {
+  flex-grow: 0;
+}
+
+.charicon img {
+  max-height: 12rem;
+  box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: all ease-in-out 0.2s;
+}
+
+.charicon img:hover {
+  z-index: 500;
+  box-shadow: 0 0 50px 30px rgba(255, 255, 255, 0.15);
+  scale: 1.2;
+}
+
+.chartext {
+  text-align: justify;
+}
+
+.chartitle {
+  font-size: 2rem;
+  color: var(--text-color);
+  font-family: var(--main-font);
+  margin: 0 0 1rem;
+}
+
+.chardesc {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  font-family: var(--main-font);
+  line-height: 100%;
+  margin-bottom: 0.3rem;
+}
+
+.charsub {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-family: var(--main-font);
+  line-height: 110%;
+}
+
+@media only screen and (max-width: 800px) {
+  .charlist {
+    width: 90%;
+  }
+
+  .char {
+    flex-direction: column;
+    gap: 1.35rem;
+  }
+
+  .charicon img {
+    max-height: 10rem;
+  }
+
+  .chartext {
+    text-align: justify;
+  }
+
+  .chartitle {
+    margin: 0;
+    font-size: 1.75rem;
+  }
+
+  .chardesc {
+    font-size: 1.25rem;
+  }
+
+  .charsub {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .charlist {
+    width: 95%;
+  }
+
+  .char {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .charicon img {
+    max-height: 8rem;
+  }
+
+  .chartext {
+    text-align: unset;
+  }
+
+  .chartitle {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+
+  .chardesc {
+    font-size: 1rem;
+  }
+
+  .charsub {
+    font-size: 0.75rem;
+  }
+}
+
+/* List of filters */
+
+.filters {
+  width: 95%;
+  margin: 2rem auto;
+  padding: 1.5rem 2.5rem;
+  box-sizing: border-box;
+
+  color: var(--white);
+  background: transparent;
+  backdrop-filter: blur(20px);
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px 15px rgba(255, 255, 255, 0.1);
+
+  position: sticky;
+  bottom: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+
+  transition: all ease-in-out 0.2s;
+}
+
+.filters:hover {
+  box-shadow: 0px 0px 30px 15px rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.filters div {
+  flex-shrink: 0;
+}
+
+.filters h2 {
+  font-size: 1.7rem;
+  margin: auto 0;
+  flex: 1;
+}
+
+.filterlist {
+  flex: 5;
+
+  margin: auto 0;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.filterhead {
+  margin: auto 1rem auto 0;
+  font-size: 1.5rem;
+}
+
+.filter {
+  zoom: 0.9;
+  border-radius: 0;
+  margin: 0 -1px;
+}
+
+.filterlist div:nth-child(2) {
+  border-radius: 8px 0 0 8px;
+}
+
+.filterlist div:last-of-type {
+  border-radius: 0 8px 8px 0;
+}

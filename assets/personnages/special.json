@@ -1,0 +1,29 @@
+[
+  {
+    "name": "+1 Corbeau",
+    "file": "plus1corbeau",
+    "description": "Cette carte est donnée par le Maître du jeu au joueur désigné par le Corbeau. Elle correspond à une voix contre la personne qui la possède.",
+    "note": "À partir de 20 joueurs, il est recommandé d'utiliser la carte +2 Corbeau."
+  },
+
+  {
+    "name": "+2 Corbeau",
+    "file": "plus2corbeau",
+    "description": "Cette carte est donnée par le Maître du jeu au joueur désigné par le Corbeau. Elle correspond à deux voix contre la personne qui la possède.",
+    "note": "En-dessous de 20 joueurs, il est recommandé d'utiliser la carte +1 Corbeau."
+  },
+
+  {
+    "name": "Bière",
+    "file": "bière",
+    "description": "Cette carte est donnée par le Maître du jeu au joueur désigné par le Serveur. Elle prive de son pouvoir de vote la personne qui la possède.",
+    "note": ""
+  },
+
+  {
+    "name": "Maire",
+    "file": "maire",
+    "description": "Élu par le village au deuxième jour, elle permet à celui qui la possède de départager les votes. Si son détenteur meurt, il désigne dans son dernier souffle le joueur qui prendra sa succession.",
+    "note": "Variante du Chien-Loup : Le maire doit dire à chaque tour « Je nourris le Chien-loup » sinon le Chien-loup devient Loup-garou."
+  }
+]

@@ -1,0 +1,334 @@
+[
+  {
+    "name": "Achille",
+    "file": "achille",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Achille se réveille la première nuit et désigne un joueur, qui devient son talon. Achille est immortel, mais meurt si son talon meurt aussi.",
+    "note": ""
+  },
+
+  {
+    "name": "Ancien du village",
+    "file": "ancien",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "L’Ancien peut survivre une fois à une attaque de Loups-Garous. En revanche, s’il est tué au vote, les villageois perdent leur pouvoir pendant la nuit qui suit.",
+    "note": ""
+  },
+
+  {
+    "name": "Ange",
+    "file": "ange",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "L’Ange a pour objectif de mourir au premier tour. S’il y arrive, il gagne la partie.",
+    "note": "Note : Dans le cas contraire, il devient villageois."
+  },
+
+  {
+    "name": "Apprentie voyante",
+    "file": "apprentie-voyante",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "L’Apprentie voyante prend la place de la Voyante quand celle-ci meurt. Tout comme elle, elle peut chaque nuit regarder la carte d’un joueur.",
+    "note": ""
+  },
+
+  {
+    "name": "Arnacœur",
+    "file": "arnacoeur",
+    "camp": "solo",
+    "apparence": "humain",
+    "description": "L’objectif de l’Arnacœur est de gagner la partie en couple. À partir du deuxième tour, il désigne un joueur par nuit. Si c’est un Amoureux, il devient en couple avec le joueur désigné (qui se réveille), et prend la place de l’autre Amoureux, qui n’apprend pas la tromperie.",
+    "note": ""
+  },
+
+  {
+    "name": "Avocat",
+    "file": "avocat",
+    "camp": "solo",
+    "apparence": "humain",
+    "description": "Au premier tour, l’Avocat désigne deux joueurs, qui seront ses clients. Il gagne avec son client si celui-ci remporte la partie.",
+    "note": ""
+  },
+
+  {
+    "name": "Bouc émissaire",
+    "file": "bouc-emissaire",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "   cas d’égalité au vote, le Bouc émissaire meurt. Dans sa dernière volonté, il choisit les seuls joueurs aptes à voter au prochain tour.",
+    "note": "Note : Si jamais aucun des joueurs désignés ne venaient à être en vie au moment du vote, ce dernier n’aura pas lieu."
+  },
+
+  {
+    "name": "Chasseur",
+    "file": "chasseur",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Lorsqu’il est éliminé, le Chasseur désigne la personne de son choix, qui meurt elle aussi.",
+    "note": ""
+  },
+
+  {
+    "name": "Chevalier à l’épée rouillée",
+    "file": "chevalier-à-l'épée-rouillée",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "S’il est dévoré par les Loups-Garous, le Loup-Garou le plus à sa gauche meurt la nuit suivante.",
+    "note": "Note : Le Loup-Garou éliminé ne se réveille pas avec ses congénères."
+  },
+
+  {
+    "name": "Chien-loup",
+    "file": "chien-loup",
+    "camp": "inconnu",
+    "apparence": "inconnue",
+    "description": "Au premier tour, le Chien-loup décide d’être Loup-Garou ou simple villageois.",
+    "note": "Variante : le Chien-loup se réveille la première nuit mais reste villageois. À partir du deuxième tour, le Maire doit annoncer « Je nourris le Chien-loup » chaque jour, sinon le Chien-loup devient Loup-Garou."
+  },
+
+  {
+    "name": "Corbeau",
+    "file": "corbeau",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Le Corbeau se réveille à partir de la deuxième nuit. Chaque tour, il désigne un joueur de son choix, qui aura d’office un vote contre lui le lendemain.",
+    "note": "Note : Utilisez la carte « +1 Corbeau » pour notifier le vote. À partir de 20 joueurs, il est recommandé de passer à deux votes plutôt qu’un."
+  },
+
+  {
+    "name": "Cupidon",
+    "file": "cupidon",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Cupidon se réveille au premier tour et désigne deux joueurs de son choix qui tombent amoureux l’un de l’autre.",
+    "note": "Note : Les Amoureux ont pour nouvel objectif de gagner la partie en couple. Si l’un des deux meurt, l’autre meurt automatiquement de chagrin."
+  },
+
+  {
+    "name": "Détective",
+    "file": "detective",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Le Détective se réveille à partir de la deuxième nuit. Chaque tour, il désigne deux personnages de son choix. Le maître du jeu lui indique si ces personnages appartiennent ou non au même camp.",
+    "note": "Note : Chaque solo est compté comme appartenant à son propre camp."
+  },
+
+  {
+    "name": "Dictateur",
+    "file": "dictateur",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Une fois dans la partie, à partir de la deuxième nuit, le Dictateur peut décider de faire un coup d’état, et prend alors le contrôle du vote du village le lendemain. S’il parvient à éliminer un Loup-Garou, il devient maire du village, mais s’il échoue, il meurt.",
+    "note": ""
+  },
+
+  {
+    "name": "Enfant sauvage",
+    "file": "enfant-sauvage",
+    "camp": "inconnu",
+    "apparence": "inconnue",
+    "description": "Au premier tour, l’Enfant sauvage désigne un joueur, qui sera son mentor. Tant que ce joueur est en vie, l’Enfant sauvage reste villageois, mais il devient Loup-Garou si ce dernier meurt.",
+    "note": ""
+  },
+
+  {
+    "name": "Fils de la lune",
+    "file": "fils-de-la-lune",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "S’il est tué par les Loups-Garous, ces derniers ne se réveillent pas la nuit qui suit.<br>S’il est tué par les Villageois, ces derniers ne se réveillent pas la nuit qui suit.",
+    "note": ""
+  },
+
+  {
+    "name": "Greffier",
+    "file": "greffier",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Le Greffier se réveille la première nuit et décide d’un signe à faire avec le maître du jeu. Une fois dans la partie, lors d’un vote, le Greffier peut faire ce signe ; il se réveille alors la nuit suivante et apprend combien de Loups-Garous ont voté pour la personne éliminée.",
+    "note": ""
+  },
+
+  {
+    "name": "Joueur de flûte",
+    "file": "joueur-de-flute",
+    "camp": "solo",
+    "apparence": "humain",
+    "description": "Chaque nuit, le Joueur de flûte désigne deux joueurs de son choix (sauf lui-même), qui deviennent charmés et se réveillent lorsque le Joueur de flûte se rendort. Le Joueur de flûte gagne s’il arrive à charmer tous les joueurs en vie.",
+    "note": ""
+  },
+
+  {
+    "name": "Juge bègue",
+    "file": "juge-bègue",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Le Juge bègue se réveille la première nuit et décide d’un signe à faire avec le maître du jeu. Une fois dans la partie, il peut faire ce signe lors d’un vote ; le maître du jeu annule alors le vote et en organise un nouveau.",
+    "note": ""
+  },
+
+  {
+    "name": "Lanceur de couteaux",
+    "file": "lanceur-de-couteaux",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Une fois dans la partie, après la deuxième nuit, le Lanceur de couteaux peut désigner un joueur. Celui-ci, au matin, aura la possibilité de tuer le joueur de son choix.",
+    "note": "Note : Le Lanceur de couteaux ne peut pas se désigner lui-même."
+  },
+
+  {
+    "name": "L’Infect père des Loups",
+    "file": "linfect-père-des-loups",
+    "camp": "lg",
+    "apparence": "lg",
+    "description": "L’Infect Père des Loups se réveille avec les Loups-Garous. Une fois dans la partie, après le tour de ceux-ci, il peut choisir de transformer la victime en Loup-Garou.",
+    "note": "Note : Le joueur infecté conserve ses pouvoirs s’il en avait."
+  },
+
+  {
+    "name": "Loup Blanc",
+    "file": "loup-blanc",
+    "camp": "solo",
+    "apparence": "lg",
+    "description": "Le Loup Blanc se réveille avec les Loups-Garous. Une nuit sur deux (à partir de la deuxième), il se réveille et dévore le joueur de son choix.<br>Le Loup Blanc gagne la partie s’il est le seul survivant.",
+    "note": ""
+  },
+
+  {
+    "name": "Loups-Garous",
+    "file": "loups-garous",
+    "camp": "lg",
+    "apparence": "lg",
+    "description": "Une fois par nuit, les Loups-Garous se réveillent et dévorent la victime de leur choix.",
+    "note": "Note : Les Loups-Garous peuvent aussi se dévorer entre eux (pour par exemple éliminer le Loup Blanc)."
+  },
+
+  {
+    "name": "Montreur d’ours",
+    "file": "montreur-dours",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Le Montreur d’ours se réveille la première nuit et se présente au maître du jeu. Chaque matin, le Montreur d’ours grognera si au moins l’un de ses voisins est un Loup-Garou.",
+    "note": "Note : Il grognera également si lui-même est infecté."
+  },
+
+  {
+    "name": "Noctambule",
+    "file": "noctambule",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Le Noctambule se réveille à partir de la deuxième nuit. Chaque tour, il désigne un joueur de son choix et va « dormir » chez lui : le maître du jeu tape sur la tête du joueur désigné, qui se réveille et prend connaissance du Noctambule. Le joueur désigné ne se réveille plus de la nuit.",
+    "note": ""
+  },
+
+  {
+    "name": "Petite fille",
+    "file": "petite-fille",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "La Petite fille se réveille pendant le tour des Loups-Garous. Elle peut les espionner (mais ne peut pas se faire passer pour l’un d’entre eux).",
+    "note": ""
+  },
+
+  {
+    "name": "Pirate",
+    "file": "pirate",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Lors de la première nuit, le Pirate choisit un joueur qui sera son otage. Si le Pirate venait à mourir la nuit, son otage meurt à sa place.",
+    "note": ""
+  },
+
+  {
+    "name": "Prêcheurs",
+    "file": "precheur",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Deux joueurs ont le rôle de Prêcheur. Lorsqu’un des deux Prêcheurs meurt, l’autre Prêcheur se réveille la nuit suivante et pointe un joueur de son choix. Le maître du jeu désigne alors un personnage du camp opposé.",
+    "note": "Note : Si le Prêcheur désigne un Solo, le maître du jeu doit désigner un villageois"
+  },
+
+  {
+    "name": "Renard",
+    "file": "renard",
+    "camp": "village",
+    "apparence": "animal",
+    "description": "Le Renard se réveille à partir de la deuxième nuit. Chaque tour, il désigne trois joueurs, et perd son pouvoir si aucun n'est un loup-garou.",
+    "note": ""
+  },
+
+  {
+    "name": "Salvateur",
+    "file": "salvateur",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Chaque nuit, le Salvateur désigne une personne qui sera protégée d’une attaque de Loups-Garous.",
+    "note": "Note : Le Salvateur peut se désigner lui-même, mais ne peut pas désigner la même personne qu’à la nuit précédente. Le Salvateur ne protège pas contre une infection."
+  },
+
+  {
+    "name": "Servante dévouée",
+    "file": "servante-dévouée",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Une fois dans la partie, le matin, elle peut prendre le rôle de la victime des Loups-Garous, tant que cette personne ne l’a pas dévoilé.",
+    "note": ""
+  },
+
+  {
+    "name": "Serveur",
+    "file": "serveur",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Le Serveur se réveille à partir de la deuxième nuit. Chaque tour, il désigne un joueur qui ne pourra pas voter au prochain tour.",
+    "note": "Note : Utilisez la carte « Bière » pour notifier la privation de vote."
+  },
+
+  {
+    "name": "Sœurs",
+    "file": "soeurs",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Au premier tour, les deux Sœurs se réveillent, se reconnaissent et se rendorment.",
+    "note": ""
+  },
+
+  {
+    "name": "Sorcière",
+    "file": "sorcière",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "La Sorcière possède deux potions : une potion de vie qui réssucite la victime des Loups-Garous et une potion de mort qui tue le joueur de son choix. À chaque tour, elle peut choisir d’utiliser une de ces deux potions.",
+    "note": "Note : La Sorcière ne peut utiliser chaque potion qu’une seule fois. Elle ne peut de plus pas utiliser les deux potions au même tour."
+  },
+
+  {
+    "name": "Villageois",
+    "file": "villageois",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Un simple villageois. Ses seuls armes sont sa capacité d’analyse et de réflexion. Ils peuvent éliminer le joueur de leur choix grâce au vote du village.",
+    "note": ""
+  },
+
+  {
+    "name": "Voleur",
+    "file": "voleur",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Le voleur se réveille à partir de la deuxième nuit. Chaque tour, il échange sa carte avec le joueur de son choix et prend le rôle de la personne choisie. Le maître du jeu tape ensuite sur la tête du joueur dont la carte a été volée ; ce dernier devient à son tour le voleur.",
+    "note": ""
+  },
+
+  {
+    "name": "Voyante",
+    "file": "voyante",
+    "camp": "village",
+    "apparence": "humain",
+    "description": "Chaque nuit, la Voyante se réveille et peut regarder la carte d’un joueur.",
+    "note": ""
+  }
+]

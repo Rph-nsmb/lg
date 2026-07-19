@@ -1,50 +1,41 @@
 /* Imports */
 
-@import url('https://rph-nsmb.github.io/lg/assets/stylesheets/main.css');
-@import url('https://rph-nsmb.github.io/lg/assets/stylesheets/navbar.css');
-
+@import url("stylesheets/main.css");
+@import url("stylesheets/navbar_footer.css");
 
 /* Fonts */
 
 @font-face {
-     font-family: Cantarell-R;
-     src:
-		url('https://raw.githubusercontent.com/Rph-nsmb/lg/refs/heads/main/assets/fonts/Cantarell/Cantarell-Regular.ttf')
-		format('truetype');
-     font-weight: normal;
-     font-style: normal;
+  font-family: Cantarell-R;
+  src: url("https://raw.githubusercontent.com/Rph-nsmb/lg/refs/heads/main/assets/fonts/Cantarell/Cantarell-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 @font-face {
-     font-family: Cantarell-B;
-     src:
-		url('https://raw.githubusercontent.com/Rph-nsmb/lg/refs/heads/main/assets/fonts/Cantarell/Cantarell-Bold.ttf')
-		format('truetype');
-     font-weight: normal;
-     font-style: normal;
+  font-family: Cantarell-B;
+  src: url("https://raw.githubusercontent.com/Rph-nsmb/lg/refs/heads/main/assets/fonts/Cantarell/Cantarell-Bold.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 @font-face {
-     font-family: Cantarell-I;
-     src:
-		url('https://raw.githubusercontent.com/Rph-nsmb/lg/refs/heads/main/assets/fonts/Cantarell/Cantarell-Italic.ttf')
-		format('truetype');
-     font-weight: normal;
-     font-style: normal;
+  font-family: Cantarell-I;
+  src: url("https://raw.githubusercontent.com/Rph-nsmb/lg/refs/heads/main/assets/fonts/Cantarell/Cantarell-Italic.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 @font-face {
-     font-family: Cantarell-BI;
-     src:
-		url('https://raw.githubusercontent.com/Rph-nsmb/lg/refs/heads/main/assets/fonts/Cantarell/Cantarell-BoldItalic.ttf')
-		format('truetype');
-     font-weight: normal;
-     font-style: normal;
+  font-family: Cantarell-BI;
+  src: url("https://raw.githubusercontent.com/Rph-nsmb/lg/refs/heads/main/assets/fonts/Cantarell/Cantarell-BoldItalic.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 /* Main styles */
 
@@ -54,39 +45,46 @@
   --main-italic: Cantarell-I;
   --main-bolditalic: Cantarell-BI;
 
-
-
   --button-border-radius: 12px;
   --button-border-width: 2px;
-
-
 
   --yellow: #ffef00;
   --white: #fff;
   --black: #000;
-  
-  --red: #930000a2;
-  --dark-red: #750000;
-  --darker-red: #680000a2;
-  --darkest-red: #100000;
+  --dark-grey: #2c2c2c;
+
+  --light-red: #b66666;
+  --red: #cc0000;
+  --dark-red: #250000;
 
   --text-color: var(--white);
-  
-  --button-color: var(--yellow);  
 
+  --button-color: var(--red);
 }
-
-
-
 
 body {
-
-  background: linear-gradient(135deg, var(--dark-red), var(--darkest-red)) no-repeat center fixed;
+  background: linear-gradient(135deg, var(--black) 50%, var(--dark-red))
+    no-repeat center fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
+.main {
+  flex: 1;
+  justify-content: center;
+  /* justify-content: flex-start; */
+}
 
+@media only screen and (max-width: 800px) {
+  :root {
+    --button-border-radius: 9px;
+  }
+}
