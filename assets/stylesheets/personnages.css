@@ -1,5 +1,9 @@
 /* List of characters */
 
+.characters {
+  position: relative;
+}
+
 .charlist {
   display: flex;
   flex-direction: column;
@@ -143,7 +147,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 1rem;
 
   transition: all ease-in-out 0.2s;
@@ -161,11 +165,11 @@
 .filters h2 {
   font-size: 1.7rem;
   margin: auto 0;
-  flex: 1;
+  flex: 5;
 }
 
 .filterlist {
-  flex: 5;
+  flex-shrink: 0;
 
   margin: auto 0;
 
@@ -178,16 +182,76 @@
   font-size: 1.5rem;
 }
 
+.filtermain {
+  display: flex;
+  flex-direction: row;
+}
+
 .filter {
   zoom: 0.9;
   border-radius: 0;
   margin: 0 -1px;
 }
 
-.filterlist div:nth-child(2) {
+.filtermain div:first-child {
   border-radius: 8px 0 0 8px;
 }
 
-.filterlist div:last-of-type {
+.filtermain div:last-child {
   border-radius: 0 8px 8px 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .filters {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem 0.5rem;
+    box-sizing: border-box;
+
+    color: var(--white);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0px -5px 30px 15px rgba(255, 255, 255, 0.1);
+
+    bottom: 0;
+
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .filters h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: -0.8rem;
+  }
+
+  .filterlist {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .filterhead {
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .filter {
+    zoom: 0.8;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .filters h2 {
+    font-size: 1.3rem;
+  }
+
+  .filterhead {
+    font-size: 1rem;
+  }
+
+  .filter {
+    zoom: 0.7;
+  }
 }
